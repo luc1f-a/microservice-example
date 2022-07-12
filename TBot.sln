@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBot.Web", "src\TBot.Web\TBot.Web.csproj", "{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{93F5D418-5406-4EE2-87EB-962D6C88B36C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{52C48014-A740-4E86-9CCE-57EA0C05A93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBot.Common", "src\TBot.Common\TBot.Common.csproj", "{6095C391-49A4-4414-945B-D036D9245AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBot.WebApp", "src\TBot.WebApp\TBot.WebApp.csproj", "{91DF487E-3B77-4463-9F14-CB12D0EDC35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBot.Domain", "src\TBot.Domain\TBot.Domain.csproj", "{A3E4D156-470A-41C3-BA7A-8A260E101454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ACE96F20-6B68-429C-8329-FB2ABE90A431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBot.UnitTests", "tests\TBot.UnitTests\TBot.UnitTests.csproj", "{2CF82FD0-893A-4571-B702-61E171C956A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3A216952-82FA-4153-88A7-4453F9EC6B1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configs", "configs", "{2D7E0E29-CEA5-461B-B4C4-B51F0DC39A8F}"
+	ProjectSection(SolutionItems) = preProject
+		shared\config\connectionStrings.Development.json = shared\config\connectionStrings.Development.json
+		shared\config\serilog.Development.json = shared\config\serilog.Development.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6095C391-49A4-4414-945B-D036D9245AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6095C391-49A4-4414-945B-D036D9245AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6095C391-49A4-4414-945B-D036D9245AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6095C391-49A4-4414-945B-D036D9245AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DF487E-3B77-4463-9F14-CB12D0EDC35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DF487E-3B77-4463-9F14-CB12D0EDC35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DF487E-3B77-4463-9F14-CB12D0EDC35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DF487E-3B77-4463-9F14-CB12D0EDC35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E4D156-470A-41C3-BA7A-8A260E101454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E4D156-470A-41C3-BA7A-8A260E101454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E4D156-470A-41C3-BA7A-8A260E101454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E4D156-470A-41C3-BA7A-8A260E101454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF82FD0-893A-4571-B702-61E171C956A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF82FD0-893A-4571-B702-61E171C956A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF82FD0-893A-4571-B702-61E171C956A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF82FD0-893A-4571-B702-61E171C956A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9966A6C9-3A9E-40AA-9D1A-6628B8CA9932} = {93F5D418-5406-4EE2-87EB-962D6C88B36C}
+		{6095C391-49A4-4414-945B-D036D9245AAD} = {52C48014-A740-4E86-9CCE-57EA0C05A93F}
+		{91DF487E-3B77-4463-9F14-CB12D0EDC35D} = {52C48014-A740-4E86-9CCE-57EA0C05A93F}
+		{A3E4D156-470A-41C3-BA7A-8A260E101454} = {52C48014-A740-4E86-9CCE-57EA0C05A93F}
+		{2CF82FD0-893A-4571-B702-61E171C956A7} = {ACE96F20-6B68-429C-8329-FB2ABE90A431}
+		{2D7E0E29-CEA5-461B-B4C4-B51F0DC39A8F} = {3A216952-82FA-4153-88A7-4453F9EC6B1F}
+	EndGlobalSection
+EndGlobal
